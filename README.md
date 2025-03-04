@@ -32,7 +32,7 @@ LearnDeck es una plataforma educativa diseñada para publicar, gestionar y reali
 ### Pasos de Instalación
 1. Clonar el repositorio
 ```bash
-git clone https://github.com/[tu-usuario]/learndeck.git
+git clone https://github.com/yiixaj/Class_tab.git
 cd learndeck
 ```
 
