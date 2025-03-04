@@ -1,52 +1,109 @@
-# Tutor.co
+# LearnDeck 📚🎓
 
-Educational website used to publish and maintain the assignments published by the teacher/admin which can be than viewed by the students and perform necessary work assigned b the teacher.
+## 🌐 Descripción del Proyecto
+LearnDeck es una plataforma educativa diseñada para publicar, gestionar y realizar tareas, similar a Google Classroom. Permite a profesores crear y administrar asignaciones, mientras los estudiantes pueden visualizar y completar las tareas asignadas.
 
-## Project details
+## ✨ Características Principales
+- Sistema de gestión de tareas educativas
+- Roles diferenciados para administradores y usuarios
+- Interfaz intuitiva para profesores y estudiantes
+- Publicación y seguimiento de asignaciones
+- Gestión de usuarios
 
-This project is built using Core PHP and MySQL database. The website is designed and developed by [Me](https://gihub.com/mohammed-adil). Check out the project in action in [tutor.co](http://tutor-co.000webhostapp.com/).
+## 🛠 Tecnologías Utilizadas
+- PHP (Versión Core)
+- MySQL
+- HTML5
+- CSS3
+- JavaScript
 
-## Project setup
+## 📋 Requisitos del Sistema
+- Servidor web con soporte PHP
+- MySQL
+- Navegador web moderno
 
-To test the project in local machine PHP, MySQL database are needed to be installed in the system.
-We can do this by simply installing XAMPP or WAMP or MAMP software in our systems. 
+## 🚀 Instalación y Configuración
 
-- After installing the above software, we need to import the sample data into our MySQL database.
-- Clone the project into your machine.
-- Start the Apache server and MySQL activity from the respective control panel, and head over to [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) in any web browser.
-- Import the database from your PROJECT_PATH/database/tutor.sql file, into the server.
-- You're almost done, now head over to [http://localhost/tutor/](http://localhost/tutor/) in any web browser and test the website.
+### Requisitos Previos
+- XAMPP, WAMP o MAMP
+- Servidor Apache
+- MySQL
 
-## System Credentials
-```
-Database file name: tutor.sql
-Database username: root
-Database Password: 
-```
-```
-Admin Login Mail ID: admin@tutor.co
-Admin Login Password: admin123
-```
-```
-Sample User Mail ID: adil@mail.com
-Sample User Password: adil123
-```
-
-## Functionalities of Admin
-```
-Login as Admin.
-Add new Assignments.
-View Assignments.
-Update Assignments.
-Delete Assignments.
-View total number of users in the system.
+### Pasos de Instalación
+1. Clonar el repositorio
+```bash
+git clone https://github.com/[tu-usuario]/learndeck.git
+cd learndeck
 ```
 
-## Functionalities of Users
+2. Configuración de Base de Datos
+- Iniciar Apache y MySQL
+- Abrir phpMyAdmin: http://localhost/phpmyadmin/
+- Importar base de datos: `tutor.sql`
+
+3. Configurar Credenciales
+- Editar archivo de configuración de base de datos
+- Verificar conexión
+
+### Acceso al Proyecto
+- URL Local: http://localhost/learndeck/
+
+### Cuentas de Prueba
+#### Administrador
+- Email: admin@learndeck.com
+- Contraseña: admin123
+
+#### Usuario de Ejemplo
+- Email: usuario@learndeck.com
+- Contraseña: usuario123
+
+## 🖥️ Funcionalidades del Administrador
+- Inicio de sesión como administrador
+- Crear nuevas asignaciones
+- Visualizar asignaciones
+- Actualizar asignaciones
+- Eliminar asignaciones
+- Gestionar usuarios
+- Ver estadísticas del sistema
+
+## 👥 Funcionalidades de Usuarios
+- Registro de nuevos usuarios
+- Inicio de sesión
+- Visualizar asignaciones
+- Completar tareas asignadas
+
+## 🗂️ Estructura del Proyecto
 ```
-Sign up as a new user.
-Login as user.
-View Assignments.
+learndeck/
+│
+├── admin/
+├── includes/
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── database/
+│   └── learndeck.sql
+├── index.php
+└── README.md
 ```
 
-### Happy hacking!
+## 🚧 Próximas Mejoras
+- Sistema de calificaciones
+- Notificaciones por email
+- Integración con servicios en la nube
+- Mejora de interfaz de usuario
+
+## 🤝 Contribuciones
+1. Hacer fork del repositorio
+2. Crear rama de características
+3. Realizar cambios
+4. Enviar pull request
+
+## 📄 Licencia
+[Especificar Licencia, ej. MIT License]
+
+## 📞 Contacto
+- Email: [tu-email]
+- GitHub: [tu-usuario-github]
+
